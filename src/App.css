@@ -1,0 +1,238 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.container{
+  max-width:1400px;
+  margin:auto;
+  padding:24px;
+}
+
+.hero{
+  background:rgba(12,24,45,.85);
+  border:1px solid rgba(255,255,255,.08);
+  backdrop-filter:blur(14px);
+  border-radius:24px;
+  padding:32px;
+  display:flex;
+  gap:28px;
+  align-items:center;
+  margin-bottom:24px;
+  box-shadow:0 20px 60px rgba(0,0,0,.35);
+}
+
+.photo{
+  min-width:170px;
+  height:170px;
+  border-radius:50%;
+  background-image:url("/public/Captura\ de\ tela\ 2026-05-25\ 180550.png");
+  background-size:cover;
+  background-position:center;
+  border:4px solid rgba(255,255,255,.8);
+  box-shadow:0 0 50px rgba(139,92,246,.5);
+}
+.hero-info{
+  flex:1;
+}
+
+.tag{
+  color:#93c5fd;
+  letter-spacing:3px;
+  margin-bottom:10px;
+  font-size:13px;
+}
+
+.hero-info h1{
+  font-size:58px;
+  margin-bottom:10px;
+}
+
+.hero-info h2{
+  color:#c4b5fd;
+  margin-bottom:18px;
+}
+
+.hero-info p{
+  color:#cbd5e1;
+  line-height:1.7;
+  max-width:760px;
+}
+
+.links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:20px;
+}
+
+.links a{
+  text-decoration:none;
+  color:white;
+  background:linear-gradient(135deg,#3b82f6,#8b5cf6);
+  padding:12px 18px;
+  border-radius:12px;
+  transition:.3s;
+}
+
+.links a:hover{
+  transform:translateY(-4px);
+}
+
+.content-grid{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  gap:24px;
+}
+
+.section{
+  background:white;
+  color:#111827;
+  border-radius:22px;
+  padding:28px;
+  margin-bottom:24px;
+  box-shadow:0 20px 50px rgba(0,0,0,.2);
+}
+
+.section h2{
+  color:#071b38;
+  margin-bottom:24px;
+  font-size:30px;
+}
+
+.section p{
+  line-height:1.8;
+  margin-bottom:16px;
+}
+
+.career-grid{
+  display:grid;
+  gap:18px;
+}
+
+.career-card{
+  background:#f8fafc;
+  border-left:5px solid #3b82f6;
+  border-radius:18px;
+  padding:22px;
+  transition:.3s;
+}
+
+.career-card:hover{
+  transform:translateY(-6px);
+}
+
+.career-card h3{
+  margin-bottom:12px;
+  color:#111827;
+}
+
+.skills-area{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+  margin-top:20px;
+}
+
+.skills-area h4{
+  margin-bottom:10px;
+  color:#3b82f6;
+}
+
+.skills-area ul{
+  padding-left:18px;
+}
+
+.skills-area li{
+  margin-bottom:8px;
+}
+
+.skill{
+  margin-bottom:20px;
+}
+
+.skill-title{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:8px;
+}
+
+.bar{
+  width:100%;
+  height:12px;
+  background:#d1d5db;
+  border-radius:999px;
+  overflow:hidden;
+}
+
+.progress{
+  height:100%;
+  background:linear-gradient(90deg,#3b82f6,#8b5cf6);
+  border-radius:999px;
+}
+
+.education{
+  margin-bottom:18px;
+}
+
+.education h3{
+  margin-bottom:8px;
+}
+
+.education span{
+  color:#3b82f6;
+  font-weight:600;
+}
+
+.project{
+  margin-bottom:18px;
+}
+
+.project h3{
+  margin-bottom:8px;
+}
+
+.tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.tags span{
+  background:#071b38;
+  color:white;
+  padding:10px 14px;
+  border-radius:999px;
+}
+
+@media(max-width:1000px){
+
+  .content-grid{
+    grid-template-columns:1fr;
+  }
+
+}
+
+@media(max-width:800px){
+
+  .hero{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .hero-info h1{
+    font-size:38px;
+  }
+
+  .skills-area{
+    grid-template-columns:1fr;
+  }
+
+}
