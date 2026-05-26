@@ -1,73 +1,93 @@
-# React + TypeScript + Vite
+# 💼 Mapa de Carreira — Letícia Andrade
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido para apresentar minha trajetória profissional, objetivos de carreira, habilidades técnicas e evolução na área de tecnologia.
 
-Currently, two official plugins are available:
+## 🚀 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O Mapa de Carreira foi criado com o objetivo de representar minha evolução como Desenvolvedora Full Stack, destacando:
 
-## React Compiler
+- Formação acadêmica
+- Habilidades técnicas
+- Soft skills
+- Experiências profissionais
+- Projetos desenvolvidos
+- Objetivos futuros na área tech
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto funciona como um portfólio pessoal e currículo interativo.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tecnologias Utilizadas
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- React
+- TypeScript
+- Vite
+- CSS3
+- Framer Motion
+- Git & GitHub
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🎯 Objetivo Profissional
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Atuar como Desenvolvedora Full Stack Júnior, criando aplicações modernas, acessíveis e centradas na experiência do usuário.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🧠 Habilidades Técnicas
+
+### Front-End
+- HTML5
+- CSS3
+- JavaScript
+- React.js
+
+### Back-End
+- Java
+- APIs REST
+- Spring Boot (em aprendizado)
+
+### Banco de Dados
+- MySQL
+
+### Ferramentas
+- Git
+- GitHub
+- Figma
+- Canva
+- Trello
+- Power BI
+
+---
+
+## 📂 Projetos
+
+### 🚑 Ever Rise
+Guincho hospitalar autônomo para transferência de pacientes com mobilidade reduzida, integrado a uma interface web acessível.
+
+### 🏛 Lentes do Tempo
+Projeto utilizando Inteligência Artificial para restauração digital de monumentos históricos.
+
+---
+
+## 🌐 Deploy
+
+🔗 https://mapa-de-carreira-eight-blond.vercel.app/
+
+---
+
+## 📬 Contato
+
+📧 leticiaandradealj@gmail.com
+
+🔗 LinkedIn  
+https://www.linkedin.com/in/let%C3%ADciaandradeads
+
+🔗 GitHub  
+https://github.com/andradebjl24-cmyk
+
+---
+
+## ✨ Status
+
+🚧 Projeto em constante evolução.
